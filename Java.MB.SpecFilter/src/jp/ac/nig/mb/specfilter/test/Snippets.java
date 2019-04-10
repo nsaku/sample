@@ -21,6 +21,7 @@ import jp.or.kazusa.sakurai.util.mfcalculator.MfCalculator;
 public class Snippets {
 
     /**
+     * <p>Sample for reading from a file.</p>
      * ファイルを開く。<br/>
      * ファイルIOなどにエラーがあったときに確実にファイルをcloseできるよう、
      * ファイルハンドラ（in）はtryの前に宣言しておく。<br/>
@@ -69,6 +70,7 @@ public class Snippets {
     }
 
     /**
+     * <p>Sample for writing into a file.</p>
      * ファイルに書き出す。<br/>
      * ファイルIOなどにエラーがあったときに確実にファイルをcloseできるよう、
      * ファイルハンドラ（out）はtryの前に宣言しておく。<br/>
@@ -96,6 +98,7 @@ public class Snippets {
 
 
     /**
+     * <p>Sorting</p>
      * 任意に並び替えする
      * @param list
      */
@@ -142,6 +145,7 @@ public class Snippets {
     }
 
     /**
+     * <p>Enumeration of elements using HashSet</p>
      * HashSetを使ったUnique要素の列挙
      * @param list
      */
@@ -163,6 +167,7 @@ public class Snippets {
     }
 
     /**
+     * <p>Counting the element numbers using HashMap.</p>
      * HashMapを使った要素数のカウント
      * @param list
      */
@@ -190,6 +195,7 @@ public class Snippets {
     }
 
     /**
+     * <p>Use of library.</p>
      * ビルドパスに追加したライブラリーの使い方の例。<br/>
      * MfCalculatorオブジェクトを作って、その中のメソッドを使う。<br/>
      * ここではformulaから精密質量を計算する。
@@ -205,6 +211,7 @@ public class Snippets {
 
 
     /**
+     * <p>Regular expression sample using Jakarta Oro library.</p>
      * Jakarta OROライブラリー（非常に古い）を使ってPerlのような正規表現をする。<br/>
      * Native Javaだけでも、replaceやmatchesなどの簡単な処理は行えるし、
      * Patternクラスを使って複雑な正規表現を処理することはできる。

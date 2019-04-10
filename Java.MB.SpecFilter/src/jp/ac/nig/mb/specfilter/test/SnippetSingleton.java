@@ -1,6 +1,7 @@
 package jp.ac.nig.mb.specfilter.test;
 
 /**
+ * <p>Sample of a "Singleton" model</p>
  * <p>シングルトンモデルのサンプルです。<br/>
  * プログラム内で一度だけ作成でき、どこからでも呼び出せるインスタンスを
  * 作成する仕組みです。<br/>
